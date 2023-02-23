@@ -8,5 +8,6 @@ COPY /../react-rtmp-stream-client/ .
 RUN npm run build 
 #STEP 2 "Nginx server"
 FROM nginx:alpine AS prod-stage
+COPY default.conf /etc/nginx/conf.d/
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80

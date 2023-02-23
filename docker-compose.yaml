@@ -1,0 +1,13 @@
+version: "3"
+services:
+  server:
+    build: ./react-rtmp-stream-server-docker
+    #command: node app.js;
+    ports:
+      - "8000:8000"
+      - "1935:80"
+  web:
+    build: ./react-rtmp-stream-client-docker
+    #command: ["nginx", "-g", "daemon off;"]
+    ports:
+      - "3025:80"
