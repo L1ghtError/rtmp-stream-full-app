@@ -1,6 +1,0 @@
-[submodule "react-rtmp-stream-server"]
-	path = react-rtmp-stream-client-docker/react-rtmp-stream-server
-	url = https://github.com/L1ghtError/react-rtmp-stream-server
-[submodule "react-rtmp-stream-client"]
-	path = react-rtmp-stream-client
-	url = https://github.com/L1ghtError/react-rtmp-stream-client
