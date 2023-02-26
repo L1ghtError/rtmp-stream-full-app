@@ -1,6 +1,6 @@
 ﻿# rtmp-stream-full-app
 ### Application that combines [react-rtmp-stream-client](https://github.com/L1ghtError/react-rtmp-stream-client) and [react-rtmp-stream-server](https://github.com/L1ghtError/react-rtmp-stream-server)
-launch instraction
+# launch instraction
 
 # way 1 (docker-compose):
 
